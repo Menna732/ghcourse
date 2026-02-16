@@ -3,7 +3,7 @@ name: firstwork flow
 on: 
   push:
     branches:
-      -main
+      - main
 
 jobs:
   exapmles-job:
