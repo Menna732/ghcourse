@@ -1,4 +1,4 @@
-name: firstwork flow 
+name: First Workflow 
 
 on: 
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   exapmles-job:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - name : print a welcom message 
         run :  echo "welcome to our first project workflow!"
