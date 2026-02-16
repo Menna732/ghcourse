@@ -1,0 +1,13 @@
+name: firstwork flow 
+
+on: 
+  push:
+    branches:
+      -main
+
+jobs:
+  exapmles-job:
+    runs-on: ubuntu-lastest
+    steps:
+      - name : print a welcom message 
+        run :  echo "welcome to our first project workflow!"
